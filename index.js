@@ -8,8 +8,8 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send(`
     <h1>E-Voting Backend 運行成功！</h1>
-    <p>公共網址：https://voting-backend-bmsc.onrender.com</p>
-    <p>POST /vote 測試正常（已修復加密錯誤）</p>
+    <p>https://voting-backend-bmsc.onrender.com</p>
+    <p>Testing Testing</p>
     <pre>{"vote": "Candidate A"}</pre>
   `);
 });
